@@ -1,0 +1,163 @@
+body{
+    background: #ffffff;
+    font-family: "Helvetica Neue, Helvetica, Ariel, Sans-serif";
+    font-size: 100%;
+    line-height: 1.7em;
+    color:#000000;
+}
+#top_row h1{
+    color:#F38FAE;
+    font-size: 3.75em;
+    letter-spacing: -2px;
+}
+#top_row h3{
+    font-size: 1.125em;
+    font-weight:400;
+    
+}
+#top_row {
+    background: #ffffff;
+    border-bottom: 1px dotted #46B1C9;
+    padding: .5em .5em 3em .5em;
+    position:sticky;
+    top:0;
+    z-index:2;
+    
+}
+#header {
+    position:sticky;
+    top:0;
+    z-index:2;
+}
+
+#top_row header{
+    
+    margin-bottom: -2.5em;
+}
+#sidebar{
+   
+    float: left;
+    padding: 1em;
+    font-size: .875em;
+    position:fixed;
+    z-index:2;
+}
+#top_row img{
+   float:left;
+   margin: -3em 1em 0 0;
+   padding: 1em;
+}
+
+#sidebar nav a{
+    font-size: 1.125em;
+    font-weight: 400;
+    padding:15px;
+    color: #46B1C9;
+    
+}
+#sidebar nav a.selected{
+    background: #FFFBE6;
+    color: #F38FAE;
+}
+#sidebar nav a.selected:hover{
+    background: #f6f6f6;
+    color: #bbbbbb;
+}
+#sidebar nav a:hover{
+    background: #FFFBE6;
+    color: #ff89d0;}
+#content {
+   float:right;
+  position:relative;
+    width: 65%;
+    margin: 0;
+    padding: 1em;
+    
+    }
+#content h3 {
+    color: #46B1C9;
+    text-decoration:underline;
+    font-size:110%;
+    }
+
+footer{
+    clear: both;
+    margin:0;
+    padding:.5em;
+    color: #000000;
+    font-size:.813em;
+    text-align: left;
+    border-top: 1px dotted #46B1C9;
+}
+/* Tabs styling referenced http://keith-wood.name/uiTabs.html */
+#tabs { 
+    background: transparent; 
+    border: none;
+    margin: 0 0 0 -15em;
+} 
+#tabs .ui-widget-header { 
+    background: transparent; 
+    border: none;
+    border-bottom: 1px dashed #46B1C9; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+#tabs .ui-tabs-nav .ui-state-default { 
+    background: transparent; 
+    border: none; 
+} 
+#tabs .ui-tabs-nav .ui-state-active { 
+    background: transparent url(img/uiTabsArrow.png) no-repeat bottom center; 
+    border: none; 
+} 
+#tabs .ui-tabs-nav .ui-state-default a { 
+    color: #46B1C9; 
+} 
+#tabs .ui-tabs-nav .ui-state-active a { 
+    color: #F38FAE; 
+}
+#content table{
+    float:right;
+}
+table{
+    width: 45%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #46B1C9;
+    
+    margin: auto;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+th{
+    
+    font-weight: bold;
+    height: 40px;
+
+}
+
+th,td{
+    padding: 2px;
+    
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-size:100%;
+}
+#tabs p{
+    font-weight:bold;
+}
+
+iframe{
+    border-radius: 50%;
+    margin-left:50px;
+    
+    
+}
+html {overflow-y: scroll;}
+#courselist{
+    clear:both;
+}
+

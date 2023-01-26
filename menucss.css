@@ -1,0 +1,28 @@
+#content img{
+   
+    margin: auto;
+    
+
+   
+}
+#content-gallery{
+    float:right;
+   
+
+    
+}
+#content-gallery2{
+    margin:auto;
+   
+}
+
+#all-content{
+    margin: auto;
+    margin-top:2em;
+    margin-left:12em;
+    
+}
+#gallery img{
+    border-radius:50%;
+    margin:auto;
+}

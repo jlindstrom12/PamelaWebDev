@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta name="Author" content="Jonathan">
+    <meta name="Keywords" content = "Resteraunt, Information Systems, Web dev project">
+    <meta name = "Description" content = "Redesign of Pamela's Diner">
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/indexcss.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <!--Javascript functions to utilize accordions and tabs-->
+    <script>
+        $(function() {
+            $("#accordion").accordion();
+            autoFill:true;
+            autoHeight: false;
+        });
+    </script>
+    <script>
+        $(function(){
+            $( "#tabs2").tabs({
+                event: "mouseover"
+            });
+        });
+    </script>
+    <title>Pamela's Diner</title>
+</head>
+
+<div id="top_row">
+    <header>
+        <img src = "Images/pamelaslogo.jpg" alt = "Pamela Logo">
+        <h1>Pamela's Diner</h1>
+        <h3>Serving the Best Breakfast in Pittsburgh Since 1980</h3>
+        
+        
+    </header>
+</div>
+<body>
+<div id="content">
+    <div id="accordion">
+        <h4>About Us</h4>
+        <div id="sec1"> 
+            <!--First section of the accordion, Includes image of the diner with some of the history of the diner-->
+            <img src="images/Pamelas.jpeg" width="412.5" height="273.75">
+    
+            <p>  &emsp;&emsp;Our small diner has become a staple in Pittsburgh. crêpe-style pancakes, omelets and Lyonnaise potatoes. Some of our nicknames we have gained over the years include the "pantheon of pancake purveyors" and a “Treasure of Pittsburgh”. In 2013 we were featured on the wall street journal in a “What to Do in Pittsburgh” feature.</p><br/> 
+
+                <p>&emsp;&emsp;Our diner is owned by Gail Kilngensmith and Pam Cohen. Both of them were educated as teachers and both business partners shandel different tasks with Kilngensmith generally handels the business end while Cohen is known as “The culinary artist” meaning she is the one who is designing our menu. </p><br/>
+                
+               <p>&emsp;&emsp;Our first location was opened in the Squirrel Hill Neighborhood opening 1979 which has since closed due to Covid-19 and the loss of several long-time employees. Since then we have had locations opening in Shadyside, The Stript District, Oakland, and Mt. Lebanon. Hopefully with more to come in the future.</p><br/>
+                
+                <p>&emsp;&emsp;One of our proudest accomplishments is during the 2008 presidential election Barak Obama visited our diner for a campaign visit. Once elected Obama invited our founders to the white house for a memorial day breakfast with the Obama family and 80 veterans.
+                </p></div>
+        <h4>What is Everyone Saying?</h4>
+        <div id="sec2">
+            <div id="tabs2">
+                <!--Second section of the accordion, Includes images of reviews from all 3 websites as well as links to reach them-->
+                <ul>
+                    <li><a href="#tabs-1">Yelp Reviews</a></li>
+                    <li><a href="#tabs-2">Google Reviews</a></li>
+                    <li><a href="#tabs-3">Trip Advisor Reviews</a></li>
+            
+                </ul>
+                <div id="tabs-1">
+                <a href="https://www.yelp.com/biz/p-and-gs-pamelas-diner-pittsburgh" target="_blank">More Yelp Reviews(1,565+)</a><br/>
+                <img src="images/Review2.png" width="314.6343" height="380"> <br/>
+               </div>
+                  
+                <div id="tabs-2">
+              
+                <a href="https://www.google.com/search?q=Pamelasdiner+google+reviews&rlz=1C5CHFA_enUS744US744&oq=Pamelasdiner+google+reviews&aqs=chrome..69i57j33i10i160.5019j1j4&sourceid=chrome&ie=UTF-8#lrd=0x8834f3dcdf678413:0x2b6723dae7142a78,1,,," target="_blank">More Google Reviews(5,543+)</a> <br/>
+                <img src="images/Review1.png" width="366.40" height="380" ><br/>
+                
+                </div>
+                
+                <div id="tabs-3">
+                
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g53449-d3599818-Reviews-Pamela_s_Diner-Pittsburgh_Pennsylvania.html" target="_blank">More Trip Advisor Reviews(2,009+)</a><br/>
+                <img src="images/Review3.png" width="435.137" height="380"><br/>
+                
+                </div>
+        </div>
+        </div>
+        <h4>Additional Articles</h4>
+        <div>
+            <!--Shortest of the accordion sections, Simply includes links to a few more articles about pamelas diner-->
+            <a href="https://www.discovertheburgh.com/pamelas-review/" target ="_blank">Pamela’s Diner Review – Pittsburgh’s Most Famous Hotcakes</a><br/>
+           <a href=" https://www.visitpittsburgh.com/directory/pamelas-p-g-diners/" target="_blank">Visit Pittsbrugh - Pamela's P&G Diner</a> <br/>
+            <a href="https://roadfood.com/restaurants/pamelas-diner/" target="_blank">RoadFood - Pamela's Diner</a>
+
+        </div>
+        </div>
+   
+</div>
+<div id="sidebar">
+    <nav>
+        <!--Sidebar Menu Navigation-->
+        <a class="selected" href = "index.html">About Us</a> <br/><br/>  
+        <a href = "menu.html">Menu</a><br/><br/>  
+        <a href = "locations.html">Locations & Times</a> <br/><br/>
+        <a href = "contact.html">Contact Us</a> <br/><br/>  
+    </nav>
+</div>
+<footer>
+    <h3>Contact</h3>
+     <!--Footer includes phone numbers, and links to facebook, email, and instagram-->
+        <strong>Phone Numbers</strong><br>
+        Strip District: (412) 281-6366 <br/>
+        Shadyside: (412) 683-1003 <br/>
+        Oakland: (412)-683-4066<br/>
+        Mt. Lebanon: (412) 343-3344 <br><br>
+        <a href="mailto:pam@pamelasdiner.com"><img src="images/email.png" alt="Email Icon"></a>
+        <a href="https://www.facebook.com/pamelasdiner/" target = "_Blank"><img src = "images/facebook.png" alt="Facebook Logo"></a>
+        <a href="https://www.instagram.com/pamelasdiner/?hl=en" target="_Blank"><img src="images/Instagram_Icon.png" height = "25" width="25" alt="Instagram Logo"></a> <br/>
+        <a href="documentation/WebDev - Citations.pdf" target="_Blank">Citations</a><br/>
+    &copy; Jonathan Lindstrom <br>
+</footer>
+    
+</body>
+</html>
